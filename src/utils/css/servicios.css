@@ -1,0 +1,190 @@
+.Text{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}
+.ContainerServices{
+    display: flex;
+}
+.SecctionTittle{ /*Contiene al título Mayoristas*/
+    background-color: #B194C8;
+    font-weight: bold;
+    font-size: 26px;
+    text-align: center;
+    line-height: 0%;
+    height: 100px;
+    font-family: "Monserrat_Bold";
+    display: flex;
+    justify-content: center;
+    width: 60%;
+}
+
+h4 {
+    font-size: 50px;
+    padding: 45px;
+}
+h5 {
+   font-size: 28px;
+   padding: 45px;
+}
+.cuadro_info{
+    border: 1px solid black;
+    font-family: "Monserrat_Light";
+    width: 100%;
+    padding: 35px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    height: 150px;
+}
+.contenido{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 45px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    animation-name: llegadaDerecha;
+    animation-duration: 3s;
+}
+@keyframes llegadaDerecha {
+    0%{
+        opacity: 0;
+        transform:translateX(1000px) ;
+    }
+    60%{
+        opacity: 0.8;
+        transform: translateX(-80px)
+    }
+    80%{
+        opacity: 0.9;
+        transform: translateX(15px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+h3{
+    font-family: "Monserrat_Light";
+    font-size: 20px;
+}
+#texto {
+    font-family: "Monserrat_Light"; 
+    font-size: 18px;
+}
+#bordadora{
+    width: 420px;
+    height: 420px;
+    border-radius: 50%;
+}
+#paleta{
+    width: 420px;
+    height: 600px;
+}
+.img_fondo {
+    width: 420px;
+    height: 420px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute; 
+    background-image: url(../images/sack_plus/tela.jpg);
+}
+.material{
+    display: flex;
+    flex-direction: column;
+}
+.materiales{
+    position: relative;
+    width: 420px ;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center 
+}
+/*RESPONSIVE*/
+    @media screen and (min-width:375px) and (max-width:420px) {
+        .contenido{
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+        .Text{
+            display: grid;
+        } 
+        .SecctionTittle{
+            width: 100%;
+            height: 70px;
+        }
+        .cuadro_info{
+            padding: 0;
+            height: 100px;
+        }
+        h5{
+            font-size: 22px;
+            padding:22px;
+        }
+        h4{
+           font-size: 35px; 
+           padding: 35px;
+        }
+        #bordadora, .img_fondo{
+            width: 200px;
+            height: 200px;
+            padding: 20px;
+        }
+        .materiales{
+            height: 220px;
+            padding: 20px;
+        }
+        
+        #paleta{
+            width: 200px;
+            height: 300px;
+            padding: 20px;
+        }
+    }
+    
+    @media screen and (min-width:421px) and (max-width:800px) {
+        .SecctionTittle{
+            width: 100%;
+            height: 70px;
+        }
+        .contenido{
+            display: grid;
+            grid-template-columns: 1fr;
+            height: 30%;
+        } 
+        .cuadro_info{
+            padding: 0;
+            height: 100px;
+        }
+        h5{
+            font-size: 22px;
+            padding:4%;
+        }
+        h4{
+           font-size: 35px; 
+           padding: 35px;
+        }
+        #bordadora, .img_fondo{
+            width: 300px;
+            height: 300px;
+            padding: 20px;
+        }
+        .materiales{
+            height: 220px;
+            padding: 20px;
+        }
+        
+        #paleta{
+            width: 330px;
+            height: 470px;
+            margin-top: 125px;
+            
+    }
+}
