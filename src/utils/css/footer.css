@@ -34,18 +34,14 @@
     color: black;
 }
 /* responsive */
-@media screen and (min-width:375px) and (max-width:420px) {
+@media screen and (min-width:375px) and (max-width:800px) {
     .footerGri{
         grid-template-columns: 1fr;
     }
     #instagram, #facebook{
         width: 50px;
     }
-}
-
-@media screen and (min-width:421px) and (max-width:800px) {
-    .footerGri{
-        grid-template-columns: 1fr;
-        overflow-x: hidden;
-    } 
+    h3{
+        font-size: 13px;
+    }
 }
