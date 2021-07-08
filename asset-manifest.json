@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/SACK-React/static/css/main.0f80d944.chunk.css",
+    "main.js": "/SACK-React/static/js/main.653accfe.chunk.js",
+    "main.js.map": "/SACK-React/static/js/main.653accfe.chunk.js.map",
+    "runtime-main.js": "/SACK-React/static/js/runtime-main.71bdfa41.js",
+    "runtime-main.js.map": "/SACK-React/static/js/runtime-main.71bdfa41.js.map",
+    "static/js/2.5ac27662.chunk.js": "/SACK-React/static/js/2.5ac27662.chunk.js",
+    "static/js/2.5ac27662.chunk.js.map": "/SACK-React/static/js/2.5ac27662.chunk.js.map",
+    "static/js/3.89ed0038.chunk.js": "/SACK-React/static/js/3.89ed0038.chunk.js",
+    "static/js/3.89ed0038.chunk.js.map": "/SACK-React/static/js/3.89ed0038.chunk.js.map",
+    "index.html": "/SACK-React/index.html",
+    "static/css/main.0f80d944.chunk.css.map": "/SACK-React/static/css/main.0f80d944.chunk.css.map",
+    "static/js/2.5ac27662.chunk.js.LICENSE.txt": "/SACK-React/static/js/2.5ac27662.chunk.js.LICENSE.txt",
+    "static/media/Montserrat-Bold.0329bf8f.woff": "/SACK-React/static/media/Montserrat-Bold.0329bf8f.woff",
+    "static/media/Montserrat-Light.05c8ae97.woff": "/SACK-React/static/media/Montserrat-Light.05c8ae97.woff",
+    "static/media/bordado.51eed410.png": "/SACK-React/static/media/bordado.51eed410.png",
+    "static/media/facebook.8989f083.svg": "/SACK-React/static/media/facebook.8989f083.svg",
+    "static/media/icono_hands.cc3529f0.svg": "/SACK-React/static/media/icono_hands.cc3529f0.svg",
+    "static/media/instagram.b6b21b75.svg": "/SACK-React/static/media/instagram.b6b21b75.svg",
+    "static/media/menu_icono.978809f2.svg": "/SACK-React/static/media/menu_icono.978809f2.svg",
+    "static/media/neon.deea161c.jpg": "/SACK-React/static/media/neon.deea161c.jpg",
+    "static/media/paleta_colores .1b137af0.png": "/SACK-React/static/media/paleta_colores .1b137af0.png",
+    "static/media/paleta_colores.1b137af0.png": "/SACK-React/static/media/paleta_colores.1b137af0.png",
+    "static/media/people_icono.be9a8bfb.svg": "/SACK-React/static/media/people_icono.be9a8bfb.svg",
+    "static/media/plus_1.1584e0f8.png": "/SACK-React/static/media/plus_1.1584e0f8.png",
+    "static/media/plus_2.59adc063.png": "/SACK-React/static/media/plus_2.59adc063.png",
+    "static/media/plus_3.4fb16b32.png": "/SACK-React/static/media/plus_3.4fb16b32.png",
+    "static/media/recordardatorio_escribenos.6b4c97a8.png": "/SACK-React/static/media/recordardatorio_escribenos.6b4c97a8.png",
+    "static/media/sack2.3df242c7.svg": "/SACK-React/static/media/sack2.3df242c7.svg",
+    "static/media/shorts_pareja.4de4cb77.png": "/SACK-React/static/media/shorts_pareja.4de4cb77.png",
+    "static/media/servicios.css": "/SACK-React/static/media/tela.4db37af3.jpg",
+    "static/media/whatsapp_icono.5dac78ba.svg": "/SACK-React/static/media/whatsapp_icono.5dac78ba.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.71bdfa41.js",
+    "static/js/2.5ac27662.chunk.js",
+    "static/css/main.0f80d944.chunk.css",
+    "static/js/main.653accfe.chunk.js"
+  ]
+}
