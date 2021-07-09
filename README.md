@@ -1,7 +1,7 @@
 ## Sack
 Página web de la tienda de ropa Sack  https://www.instagram.com/sackstore_/
 
-Realizamos 2 vistas del proyecto, respecto a mayoristas y sack plus.
+Realizamos 2 vistas del proyecto, respecto a mayoristas y sack plus en React.
 
 Las tecnologías que usamos fueron:
 - HTML
@@ -32,5 +32,5 @@ Monserrat en light y bold
 
 [Sofia Reyes]: <https://github.com/SofiaRubiano10>
 [Johana Lozano]: <https://github.com/Johanacat>
-[Mishell Uribe]: <https://github.com/SofiaRubiano10>
+[Mishell Uribe]: <https://github.com/mishellconese>
 [Aura Mejía]: <https://github.com/AuraMejia>
