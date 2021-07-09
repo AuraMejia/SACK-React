@@ -1,0 +1,77 @@
+.fotos1{ /*Sección primera de fotos*/
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 7%;
+  margin-top: 7%;
+}
+.fotos1 img{
+  margin-right: 7%;
+  width: 30%;
+  height: 30%;
+}
+.fotos2{ /*Sección segunda de fotos*/
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 7%;
+  margin-bottom: 7%;
+}
+.fotos2 img{
+  margin-right: 7%;
+  
+
+}
+.texto{ 
+  font-family: "Monserrat_Bold";
+  text-align: center;
+  font-size: 34px;
+}
+
+/* responsive */
+  @media screen and (min-width:375px) and (max-width:420px) {
+    .fotos1, .fotos2{
+        grid-template-columns: 1fr;
+        display: grid;
+        width: 100%;
+        justify-items: center;
+        margin: 0px;
+        
+    } 
+    .texto{
+        font-size: 16px;
+        margin: 2%;
+    }
+    .fotos1 img, .fotos2 img{
+      width: 80%;
+      height:auto;
+      margin: 0;
+      margin-bottom: 10px;
+    }
+}
+
+@media screen and (min-width:421px) and (max-width:800px) {
+    .fotos1, .fotos2{
+        grid-template-columns: 1fr;
+        display: grid;
+        justify-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 0;
+        height: 60%;
+        
+    } 
+    .texto{
+        font-size: 22px;
+        margin: 2%;
+    }
+     .fotos2 img, .fotos1 img{
+       width: 80%;
+        height:auto;
+        margin: 0;
+        margin-bottom: 10px;
+
+    }
+  }
